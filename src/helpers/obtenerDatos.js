@@ -8,10 +8,10 @@ export const obtenerDatos = () => {
     })
 }
 
-export const ObtenerId = (id) => {
+export const obtenerId = (id) => {
     return new Promise((resolve, reject) => {
         
-        const item = data.find((el) => el.id === id);
+        const item = data.find((el) => el.id === Number(id));
 
         if (item) {
             resolve(item);
@@ -19,9 +19,7 @@ export const ObtenerId = (id) => {
             reject({
                 error: "No se encontró el producto"
             })
-        }
+        }
 
-    })
+    })
 }
-
-export default obtenerDatos;

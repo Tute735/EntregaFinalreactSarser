@@ -3,7 +3,7 @@ import ItemList from './ItemList'
 import imagen from '../assets/img/producto1.jpg'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from "react";
-import obtenerDatos from '../helpers/obtenerDatos';
+import {obtenerDatos} from '../helpers/obtenerDatos';
 
 
 
@@ -33,7 +33,4 @@ producto={productos}
 
 )
 }
-
-
-
 export default ItemListContainer

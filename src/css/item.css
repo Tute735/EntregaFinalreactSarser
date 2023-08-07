@@ -4,6 +4,7 @@
     justify-content: center;
     border: solid 2px black;
     background-color: #fffcf1;
+    width: 300px;
 }
 .tituloProd{
     display: flex;

@@ -2,21 +2,21 @@
     {
       "id": 1,
       "nombre": "Zapatillas Nike Dunk Hi Retro",
-      "descripcion": "Descripcion Zapatilla 1",
+      "descripcion": "Estilo icónico y comodidad en un calzado distintivo.",
       "stock": 10,
       "categoria": "Nike"
     },
     {
       "id": 2,
       "nombre": "Zapatillas Adidas Forum Mid",
-      "descripcion": "Descripcion Zapatilla 2",
+      "descripcion": "Estilo clásico y versatilidad para destacar en cualquier ocasión.",
       "stock": 5,
       "categoria": "Adidas"
     },
     {
       "id": 3,
       "nombre": "Zapatillas Puma Slipstream",
-      "descripcion": "Descripcion Zapatilla 3",
+      "descripcion": "Diseño moderno y vanguardista para destacar con estilo y comodidad",
       "stock": 20,
       "categoria": "Puma"
     }

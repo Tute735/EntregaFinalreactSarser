@@ -1,0 +1,25 @@
+.conteinerDetail{
+    display: flex;
+    margin-top:100px;
+    border: solid black;
+    width: 1000px;
+    margin-left: 140px;
+    background-color: #fffcf1;
+}
+.nombreDetail{
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.descripcionDetail{
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+    font-size: 3vw;
+}
+.categoriaDetail{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+}

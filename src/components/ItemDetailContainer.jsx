@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
-import obtenerId from '../helpers/obtenerDatos'
+import { obtenerId } from '../helpers/obtenerDatos'
 import { useParams } from 'react-router-dom'
 
 const ItemDetailContainer = () => {
 const [item, setItem]=useState(null)
 const id = useParams().id;
+console.log(id)
     useEffect(()=>{
-        obtenerId(Number(id))
+        obtenerId(id)
             .then((res)=>{
                 setItem(res)
             })

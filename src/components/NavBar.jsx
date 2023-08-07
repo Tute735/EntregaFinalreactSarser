@@ -31,6 +31,7 @@ const NavBar = () => {
         </li>
       
         <li className="listNav">
+          
           <a href="">About Us</a>
         </li>
         <li className="listNav">

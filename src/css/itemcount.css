@@ -1,0 +1,27 @@
+.count{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.botonSumar{
+    display:flex;
+    margin: 10px;
+    border: solid black 1px;
+    width: 20px;
+    justify-content: center;
+    background-color: #dbd6da;
+    
+}
+.cantidad{
+    display:flex;
+    margin: 10px; 
+}
+.botonRestar{
+    display:flex;
+    margin: 10px;
+    border: solid black 1px;
+    width: 20px;
+    justify-content: center;
+    background-color:#dbd6da ;
+    
+}

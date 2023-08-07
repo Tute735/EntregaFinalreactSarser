@@ -15,7 +15,7 @@ const Item = ({ nombre, descripcion, stock, imagen, id }) => {
         </div>
         <div className="contDetail">
           <button className="buttonDetail" >
-            <Link to={`/item/:${id}`}>Mostrar</Link>
+            <Link to={`/item/${id}`}>Mostrar</Link>
           </button>
         </div>
       </section>
@@ -23,4 +23,4 @@ const Item = ({ nombre, descripcion, stock, imagen, id }) => {
   );
 };
 
-export default Item;  
+export default Item;                      
