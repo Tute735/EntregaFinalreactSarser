@@ -1,0 +1,33 @@
+.cards{
+    margin: 30px;
+    display: inline-block;
+    justify-content: center;
+    border: solid 2px black;
+    background-color: #fffcf1;
+}
+.tituloProd{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.descripcion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px
+}
+.contDetail{
+    display:flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonDetail{
+    border: solid 1.5px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #dbd6da;
+}
