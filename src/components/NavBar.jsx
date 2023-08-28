@@ -10,7 +10,7 @@ const NavBar = () => {
       <div className="Brand"><Link to={"/"}>ZneakerZ</Link></div>
       <ul className='NavbarLists'>
       <li className="listNav">
-          <a href="/home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li className="menuDesplegable">
          <Link to={"/"}>
@@ -32,10 +32,10 @@ const NavBar = () => {
       
         <li className="listNav">
           
-          <a href="">About Us</a>
+        <Link to="/aboutus">AboutUs</Link>
         </li>
         <li className="listNav">
-          <a href="">Contact</a>
+        <Link to="/contact">Contact</Link>
         </li>
       </ul>
       <Box className='ContainerCart'>

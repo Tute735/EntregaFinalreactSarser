@@ -8,6 +8,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Cart from './components/Cart'
 import { CartContext } from './context/CartContext'
 import Checkout from './components/Checkout'
+import AboutUs from './components/AboutUs'
+import Contact from './components/Contact'
 const App = () => {
   const [carrito, setCarrito] = useState([]);
   const agregar = (item, cantidad) =>{
@@ -44,6 +46,8 @@ const App = () => {
       <Route exact path="/" element={<ItemListContainer />}/>
       <Route exact path="/store" element={<ItemListContainer />}/>
       <Route exact path="/home" element ={<Home/>}/>
+      <Route exact path="/aboutus" element ={<AboutUs/>}/>
+      <Route exact path="/contact" element ={<Contact/>}/>
       <Route exact path="/cart" element ={<Cart/>}/>
       <Route exact path="/categoria/:categoria" element={<ItemListContainer />} />
       <Route exact path="/item/:id" element ={<ItemDetailContainer/>}/>
