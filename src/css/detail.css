@@ -1,22 +1,28 @@
-.conteinerDetail{
+.containerDetail{
     display: flex;
-    margin-top:100px;
-    border: solid black;
-    width: 1000px;
-    margin-left: 140px;
-    background-color: #fffcf1;
+    background-color: white;
+    justify-content: center;
 }
 .nombreDetail{
-    font-size: 5vw;
+    font-size: 1.5vw;
+    margin-top:2vw;
     display: flex;
     justify-content: center;
     text-decoration: underline;
+}
+.imgDetail{
+    margin-left: 3vw;
+}
+.ContainerDatos{
+    border: 1px solid gray;
+    margin: 2vw;
+
 }
 .descripcionDetail{
     display: flex;
     justify-content: center;
     margin: 5vw;
-    font-size: 3vw;
+    font-size: 1vw;
 }
 .categoriaDetail{
     display: flex;

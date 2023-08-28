@@ -1,36 +1,33 @@
-import React from 'react'
-import ItemList from './ItemList'
-import imagen from '../assets/img/producto1.jpg'
-import { useParams } from 'react-router-dom'
+import React from "react";
+import ItemList from "./ItemList";
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import {obtenerDatos} from '../helpers/obtenerDatos';
-
-
-
+import { obtenerDatos } from "../helpers/obtenerDatos";
+import {collection, getDocs, query, where} from "firebase/firestore"
+import {db} from "../firebase/config.js"
+ 
 const ItemListContainer = () => {
   const categoria = useParams().categoria;
   const [productos, setProductos] = useState([]);
 
+  useEffect(() => {
+    const collectionProd = collection(db, "zapatillas")
+    const q= categoria ? query(collectionProd, where("categoria", "==", categoria)): collectionProd
 
-useEffect(() => {
+    getDocs(q)
+      .then((resp)=>{
+       setProductos(
+        resp.docs.map((doc)=>{
+          return {...doc.data(), id: doc.id}
+        })
+       )
+      })
 
-obtenerDatos()
-  .then((res)=>{
-    if(categoria){
-      setProductos(res.filter((prod)=> prod.categoria===categoria))
-    } else{
-      setProductos(res)
-    }
-  })
-},[categoria])
-return (
-  <>
-<ItemList
-producto={productos}
-/>
-
-</>
-
-)
-}
-export default ItemListContainer
+  },[categoria]);
+  return (
+    <>
+      <ItemList producto={productos} />
+    </>
+  );
+};
+export default ItemListContainer;

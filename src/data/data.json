@@ -1,24 +1,101 @@
 [
-    {
-      "id": 1,
-      "nombre": "Zapatillas Nike Dunk Hi Retro",
-      "descripcion": "Estilo icónico y comodidad en un calzado distintivo.",
-      "stock": 10,
-      "categoria": "Nike"
-    },
-    {
-      "id": 2,
-      "nombre": "Zapatillas Adidas Forum Mid",
-      "descripcion": "Estilo clásico y versatilidad para destacar en cualquier ocasión.",
-      "stock": 5,
-      "categoria": "Adidas"
-    },
-    {
-      "id": 3,
-      "nombre": "Zapatillas Puma Slipstream",
-      "descripcion": "Diseño moderno y vanguardista para destacar con estilo y comodidad",
-      "stock": 20,
-      "categoria": "Puma"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "nombre": "Zapatillas Nike Dunk Hi Retro",
+    "descripcion": "Estilo icónico y comodidad en un calzado distintivo.",
+    "precio": 89999,
+    "stock": 10,
+    "categoria": "Nike",
+    "imagen": "../../public/img/producto1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Zapatillas Adidas Forum Mid",
+    "descripcion": "Estilo clásico y versatilidad para destacar en cualquier ocasión.",
+    "precio": 70000,
+    "stock": 5,
+    "categoria": "Adidas",
+    "imagen": "../../public/img/producto2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Zapatillas Puma Slipstream",
+    "descripcion": "Diseño moderno y vanguardista para destacar con estilo y comodidad.",
+    "precio": 74999,
+    "stock": 20,
+    "categoria": "Puma",
+    "imagen": "../../public/img/producto3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Zapatillas Jordan 1 Low SE Mujer",
+    "descripcion": "Estilo clásico con un toque de feminidad, perfectas para cualquier ocasión.",
+    "precio": 57999,
+    "stock": 15,
+    "categoria": "Nike",
+    "imagen": "../../public/img/producto4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Zapatillas Nike Air Vapormax 2021 Fk",
+    "descripcion": "Innovación y confort se combinan en estas zapatillas con tecnología Air Vapormax.",
+    "precio": 96999,
+    "stock": 8,
+    "categoria": "Nike",
+    "imagen": "../../public/img/producto5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Zapatillas Adidas Forum Mid Thebe",
+    "descripcion": "Diseño único y materiales premium para un estilo sofisticado y casual.",
+    "precio": 57999,
+    "stock": 12,
+    "categoria": "Adidas",
+    "imagen": "../../public/img/producto6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Zapatillas adidas Superstar Ot Tech",
+    "descripcion": "Clásico reinventado con tecnología y estilo para destacar en cualquier entorno.",
+    "precio": 57999,
+    "stock": 5,
+    "categoria": "Adidas",
+    "imagen": "../../public/img/producto7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Zapatillas Adidas Forum Mid",
+    "descripcion": "Versatilidad y comodidad en un diseño que nunca pasa de moda.",
+    "precio": 55999,
+    "stock": 9,
+    "categoria": "Adidas",
+    "imagen": "../../public/img/producto8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Zapatillas Nike LeBron 19",
+    "descripcion": "Rendimiento y estilo se unen en estas zapatillas inspiradas en LeBron James.",
+    "precio": 79999,
+    "stock": 18,
+    "categoria": "Nike",
+    "imagen": "../../public/img/producto9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Zapatillas Puma RS-X Tech",
+    "descripcion": "Diseño audaz y sofisticado que combina con cualquier look.",
+    "precio": 65999,
+    "stock": 14,
+    "categoria": "Puma",
+    "imagen": "../../public/img/producto10.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Zapatillas Puma Trc Blaze Court Unisex",
+    "descripcion": "Un estilo retro con tecnología moderna, perfectas para destacar en la calle.",
+    "precio": 78999,
+    "stock": 7,
+    "categoria": "Puma",
+    "imagen": "../../public/img/producto11.jpg"
+  }
+]

@@ -12,8 +12,9 @@ const ItemList = ({ producto }) => {
             nombre={producto.nombre}
             descripcion={producto.descripcion}
             stock={producto.stock}
-            
+            imagen={producto.imagen}
             categoria={producto.categoria}
+            precio={producto.precio}
           />
         );
       })}

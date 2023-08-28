@@ -25,3 +25,19 @@
     background-color:#dbd6da ;
     
 }
+
+.containerAgregar{
+    display: flex;
+    justify-content: center;
+}
+
+.botonAgregar{
+    display: flex;
+    justify-items: center;
+    border: solid 1.5px;
+    font-size: 1vw;
+    padding: 2px;
+    background-color: #dbd6da;
+    margin-top: 5vw;
+
+}

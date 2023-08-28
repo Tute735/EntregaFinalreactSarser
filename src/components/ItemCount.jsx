@@ -1,23 +1,21 @@
 import '../css/itemcount.css'
-import React, { useState } from 'react';
 
-const ItemCount = () => {
-  const [cantidad, setCantidad] = useState(1);
 
-  const sumar = () => {
-    setCantidad(cantidad + 1);
-  };
-
-  const restar = () => {
-    cantidad >= 1 && setCantidad(cantidad - 1);
-  };
-
+const ItemCount = ({cantidad, sumar, restar, agregar}) => {
+  
   return (
+    <>
     <div className='count'>
-      <button className='botonSumar' onClick={sumar}>+</button>
-      <p className='cantidad'>{cantidad}</p>
-      <button className='botonRestar' onClick={restar}>-</button>
+    <button className='botonRestar' onClick={restar}>-</button>
+    <p className='cantidad'>{cantidad}</p>
+    <button className='botonSumar' onClick={sumar}>+</button>
+     
+     
     </div>
+    <div className='containerAgregar'>
+    <button className="botonAgregar" onClick={agregar}>Agregar al carrito</button>
+    </div>
+    </>
   );
 };
 

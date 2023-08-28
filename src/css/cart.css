@@ -1,0 +1,68 @@
+.containerCart{
+    display: flex;
+}
+.datosCart{
+    display: flex;
+    margin-left: 3vw;
+    border: 1px solid gray;
+    width: 50vw;
+    align-items: center;
+    margin-top:1vw;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+.tituloCart{
+    display: flex;
+    font-size: 2vw;
+    margin-left: 3vw;
+    text-decoration: underline;
+}
+.imgCart{
+    height: 10vw;
+}
+.nombreCart{
+    padding-left:20px;
+}
+.precioCart{
+    padding-left: 20px;
+}
+.cantCart{
+    padding-left: 20px;
+}
+.finalizarCompra{
+    margin-left: 20vw;
+    margin-top: 6vw;
+    border: 1px solid gray;
+    height: 20vw;
+    
+}
+.precioTotal{
+    display: flex;
+    justify-content: center;
+    margin: 3vw;
+    font-size: 2vw;
+}
+.comprarCart{
+    display: flex;
+    justify-content: center;
+}
+.comprarCart button{
+    border: solid 1.5px;
+    font-size: 1vw;
+    padding: 2px;
+    background-color: #dbd6da;
+    
+}
+.vaciarCart{
+    display: flex;
+    justify-content: center;
+}
+.vaciarCart button{
+    border: solid 1.5px;
+    font-size: 1vw;
+    padding: 2px;
+    background-color: #dbd6da;
+    margin-top:2vw ;
+}

@@ -2,16 +2,18 @@
     margin: 30px;
     display: inline-block;
     justify-content: center;
-    border: solid 2px black;
-    background-color: #fffcf1;
-    width: 300px;
+    border: solid 1.5px #EDEDED;
+    background-color: white;
+    width: 150px;
+    
 }
 .tituloProd{
     display: flex;
     justify-content: center;
     margin:10px;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 1.2vh;
+    
 }
 .descripcion{
     display: flex;
@@ -28,7 +30,21 @@
 }
 .buttonDetail{
     border: solid 1.5px;
-    margin: 10px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 2px;
     background-color: #dbd6da;
+}
+.imgcard{
+    width:100px;
+    height: 100px;
+    display: flex;
+    margin-left: 25px;
+}
+.imgcarg img{
+    display: flex;
+}
+.precioCard{
+    display: flex;
+    justify-content: center;
+
 }
