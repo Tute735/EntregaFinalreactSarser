@@ -66,3 +66,23 @@
     background-color: #dbd6da;
     margin-top:2vw ;
 }
+.numPedido{
+    display: flex;
+    justify-content: center;
+
+}
+.tituloCompra{
+    display: flex;
+    justify-content: center;
+}
+.conteinerButtonCheck{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
+.buttonCheck{
+    border: solid 1.5px;
+    padding: 4px;
+    background-color: #dbd6da;
+
+}

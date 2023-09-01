@@ -1,11 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/item.css'
+import "../css/item.css";
 
-const Item = ( producto ) => {
+const Item = (producto) => {
   return (
-
-  
     <>
       <section className="cards">
         <div>
@@ -18,14 +16,13 @@ const Item = ( producto ) => {
           <p className="precioCard">${producto.precio}</p>
         </div>
         <div className="contDetail">
-          <button className="buttonDetail" >
+          <button className="buttonDetail">
             <Link to={`/item/${producto.id}`}>Mostrar</Link>
           </button>
         </div>
       </section>
     </>
-  
   );
 };
 
-export default Item;                      
+export default Item;

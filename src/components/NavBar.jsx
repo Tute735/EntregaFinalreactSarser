@@ -1,49 +1,46 @@
-import React from 'react'
-import CartWidget from './CartWidget';
-import { Box } from '@chakra-ui/react';
-import { Link} from 'react-router-dom'
-
+import React from "react";
+import CartWidget from "./CartWidget";
+import { Box } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <div className="navBar">
-      <div className="Brand"><Link to={"/"}>ZneakerZ</Link></div>
-      <ul className='NavbarLists'>
-      <li className="listNav">
+      <div className="Brand">
+        <Link to={"/"}>ZneakerZ</Link>
+      </div>
+      <ul className="NavbarLists">
+        <li className="listNav">
           <Link to="/home">Home</Link>
         </li>
         <li className="menuDesplegable">
-         <Link to={"/"}>
-          Store
-         </Link>
-          <ul className='marcas'>
+          <Link to={"/"}>Store</Link>
+          <ul className="marcas">
             <Link to={"/categoria/Nike"}>
-            <li>Nike</li>
+              <li>Nike</li>
             </Link>
             <Link to={"/categoria/Adidas"}>
-            <li>Adidas</li>
+              <li>Adidas</li>
             </Link>
             <Link to={`/categoria/Puma`}>
-            <li>Puma</li>
+              <li>Puma</li>
             </Link>
           </ul>
+        </li>
 
-        </li>
-      
         <li className="listNav">
-          
-        <Link to="/aboutus">AboutUs</Link>
+          <Link to="/aboutus">AboutUs</Link>
         </li>
         <li className="listNav">
-        <Link to="/contact">Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
-      <Box className='ContainerCart'>
-    <CartWidget></CartWidget>
-    </Box>
-    </div>
-  
-  );
-}
 
-export default NavBar
+      <Box className="ContainerCart">
+        <CartWidget></CartWidget>
+      </Box>
+    </div>
+  );
+};
+
+export default NavBar;
